@@ -93,3 +93,9 @@ Embedded Linux is a specialised version of Linux for embedded systems that provi
 To change the Linux boot type between text mode (level 3) and graphical mode (level 5), you need to edit the /etc/inittab file (on older systems) or create a symbolic link to the target target (on systemd systems), for example, with the command systemctl set-default multi-user.target for text mode or systemctl set-default graphical.target for graphical mode.
 
 CLI (Command Line Interface) mode works through text commands in the terminal, and GUI (Graphical User Interface) mode uses graphical elements such as windows, buttons, and icons to interact with the user.
+
+Висновок: 
+Операційна система – це сукупність програм і програмного забезпечення, які здійснюють контроль і керування апаратною частиною комп’ютера.
+Існує безліч видів ОС, що різняться між собою за архітектурою, ядром, користувацьким інтерфейсом, основним призначенням та іншими характеристиками.
+Проте всі операційні системи виконують дві ключові функції: розподіляють апаратні ресурси комп’ютера та переводять машинний код у більш зрозумілі для людини форми.
+Не можна однозначно назвати якусь ОС кращою чи гіршою – кожна створена для своїх цілей. Деякі призначені для обробки великих обсягів даних (наприклад, серверні системи), інші – для щоденного використання (як Windows чи Android). Також існують жартівливі або експериментальні ОС, однак деякі операційні системи з часом застарівають і стають нерелевантними для сучасного використання.
