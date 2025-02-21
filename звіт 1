@@ -76,20 +76,20 @@ Where is it used?
 
 Контрольні хапитання (Дінець Максим)
 
-Гіпервізори типу 1 працюють безпосередньо на "залізі" (наприклад, VMware ESXi) і використовуються для серверів, забезпечуючи високу продуктивність, а типу 2 працють поверх операційної системи (наприклад, VirtualBox) і застосовуються для тестування чи навчання, але менш продуктивні через залежність від ОС хоста.
+Type 1 hypervisors run directly on the hardware (e.g. VMware ESXi) and are used for servers, providing high performance, while type 2 hypervisors run on top of the operating system (e.g. VirtualBox) and are used for testing or training, but are less productive due to their dependence on the host OS.
 
-GNU GPL (General Public License) — це вільна ліцензія, яка дозволяє користувачам безкоштовно використовувати, змінювати та поширювати програмне забезпечення, за умови, що всі похідні роботи також поширюються під цією ж ліцензією.
+The GNU GPL (General Public License) is a free licence that allows users to use, modify and distribute software for free, provided that all derivative works are also distributed under the same licence.
 
-Програмне забезпечення з відкритим кодом дозволяє будь-кому безкоштовно використовувати, змінювати та поширювати його вихідний код, сприяючи спільній розробці та покращенню.
+Open-source software allows anyone to use, modify and distribute its source code for free, promoting collaborative development and improvement.
 
-Дистрибутив — це набір програмного забезпечення, який включає операційну систему, додаткові програми та інструменти для встановлення та налаштування, готовий до використання користувачем.
+A distribution kit is a set of software that includes an operating system, additional applications, and installation and configuration tools, ready for use by the user.
 
-На базі ОС Linux можна реалізувати такі задачі системного адміністрування, як налаштування мережі, управління користувачами та правами, встановлення та оновлення програмного забезпечення, моніторинг системи, резервне копіювання, забезпечення безпеки та налаштування серверних служб (наприклад, веб-серверів, баз даних або поштових серверів).
+Linux can be used for system administration tasks such as network configuration, user and rights management, software installation and updates, system monitoring, backup, security, and configuration of server services (such as web servers, databases, or mail servers).
 
-ОС Android базується на ядрі Linux, використовуючи його для управління апаратними ресурсами, але має власну структуру, бібліотеки та середовище, адаптоване для мобільних пристроїв.
+The Android OS is based on the Linux kernel, using it to manage hardware resources, but has its own structure, libraries, and environment adapted for mobile devices.
 
-Embedded Linux — це спеціалізована версія Linux для вбудованих систем, яка забезпечує високу продуктивність, низьке споживання ресурсів та гнучкість налаштування, і використовується в медіаплеєрах, IoT-пристроях, промисловому обладнанні, мережевих пристроях та інших електронних системах з обмеженими ресурсами.
+Embedded Linux is a specialised version of Linux for embedded systems that provides high performance, low resource consumption and flexibility of configuration, and is used in media players, IoT devices, industrial equipment, networking devices and other electronic systems with limited resources.
 
-Щоб змінити тип завантаження Linux між текстовим режимом (рівень 3) та графічним (рівень 5), потрібно відредагувати файл /etc/inittab (у старіших системах) або створити символьне посилання на цільовий target (у системах з systemd), наприклад, командою systemctl set-default multi-user.target для текстового режиму або systemctl set-default graphical.target для графічного.
+To change the Linux boot type between text mode (level 3) and graphical mode (level 5), you need to edit the /etc/inittab file (on older systems) or create a symbolic link to the target target (on systemd systems), for example, with the command systemctl set-default multi-user.target for text mode or systemctl set-default graphical.target for graphical mode.
 
-Режим CLI (Command Line Interface) працює через текстові команди у терміналі, а GUI (Graphical User Interface) використовує графічні елементи, такі як вікна, кнопки та іконки, для взаємодії з користувачем.
+CLI (Command Line Interface) mode works through text commands in the terminal, and GUI (Graphical User Interface) mode uses graphical elements such as windows, buttons, and icons to interact with the user.
