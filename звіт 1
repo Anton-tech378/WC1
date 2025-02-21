@@ -1,0 +1,80 @@
+Завдання для попередньої підготовки (Онишенко Антон)
+A hypervisor is a software or hardware solution that allows you to create and manage virtual machines. It distributes computer resources among virtual machines and isolates them from each other.
+
+There are two main types:
+Hypervisor Type 1 (Bare-metal).
+Works directly on the physical hardware.
+It has high performance and security.
+Used in servers and data centers.
+Example: VMware ESXi, Microsoft Hyper-V, KVM.
+
+And Type 2 (Hosted) hypervisor
+Runs on top of the operating system.
+Less efficient but convenient for testing.
+Used on personal computers.
+Example: Oracle VirtualBox, VMware Workstation.
+The main components of the hypervisor VirtualBox: Hypervisor Core, VirtualBox Manager, Virtual Machine, Kernel Modules, Guest Additions, VBoxManage.
+Features of VirtualBox: Multiple OS support, Snapshots, Shared folders, USB connection, Network modes, Hardware acceleration.
+
+Хід роботи
+
+Дайте відповіді на наступні питання: 
+
+1.Перерахуйте етапи для розгортання операційної системи на базі віртуальної машини VirtualBox(6).
+1.1. Firstly, you need to download VirtualBox from official site (you need to chose software, that supports you OS). 
+1.2. Secondly, run setup file and install it.
+1.3. Open VirtualBox and press button “Create”, that appears at the middle atop of the window.
+1.4. Now enter name of virtual machine, type of operating system and other.
+1.5. After this, you need to set up some security settings. 
+1.6. Now you need to chose how much of computer resources (such as RAM, CPU and hard disk) will be used to run your virtual machine.
+1.7. In the end, you’ll see your final configuration of your virtual machine.
+1.8. Click “Finish” and it will launch the installation of virtual OS and after installation you can use it.
+
+2.Чи є якісь апаратні обмеження при встановленні 32- та 64-бітних ОС?
+2.1 For 64-bit operating systems
+Processor supporting 64-bit architecture - your processor must support x86-64.
+Virtualization at the processor level - must be enabled in the BIOS/UEFI.
+Host operating system - must be 64-bit if you want to run 64-bit guest OSes.
+Sufficient RAM - 64-bit systems require more RAM.
+2.2 For 32-bit OSes
+The processor can be 32-bit or 64-bit - 32-bit OSes can run on either.
+There is no mandatory requirement for virtualization - some older 32-bit OSes work even without hardware virtualization.
+RAM limitations - 32-bit OSes usually cannot use more than 4 GB of RAM.
+
+3.Які основні етапи при встановленні OS Linux в текстовому режимі?
+3.1. Installing a Disk Image file of chosen Linux distribution
+3.2. Start of installation
+3.3. Setting disk partition up
+3.4. Installation of basic system Xfce та Fvwm
+
+
+3.5. Basic system configuration 
+3.6. End of installation and restart of system
+
+4.Яким чином можна до установити графічні оболонки Gnome та KDE в Linux, якщо вона вже встановлена в текстовому режимі (вкажіть необхідні команди та пакети)? 
+First, you need to install the appropriate packages and configure the display manage, to do this, write “sudo apt update”. After this, we can install Gnome or KDE packages, to do this write “sudo apt instal <package name>”
+Gnome: «ubuntu-desktop-minimal», «vanilla-gnome-desktop», «vanilla-gnome-default-settings»
+KDE: «kde-full», «kde-standart», «kde-plasma-desktop», «kde-plasma-netbook»
+
+5.Дайте коротку характеристику графічних інтерфейсів, що використовуються в різних дистрибутивах Linux  відповідно до свого варіанту (порядковий номер по журналу), табл.2. (Xfce та Fvwm) 15
+Xfce:
+Lightweight and fast - optimized for weak PCs, сlassic interface - taskbar, menu, system tray, minimum resource consumption - works even on old hardware, flexible customization - supports themes, icons, widgets, GTK+ support - integrates well with GNOME applications.
+Where is it used?
+1 Xubuntu (Ubuntu + Xfce)
+2 Manjaro Xfce 
+3 Debian Xfce
+4 Fedora Xfce
+
+Fvwm (Feeble Virtual Window Manager)
+Ultra-lightweight - consumes minimal resources, suitable for servers and old PCs, Maximum customization - you can completely change the appearance and behavior,
+Support for modules - extendable with plug-ins, Requires customization - the standard look is very simple, but configuration allows you to create unique interfaces.
+Where is it used?
+1 OpenBSD
+2 Slackware
+3 Gentoo
+4 As a minimalistic WM in various Linux distributions
+
+
+
+
+
