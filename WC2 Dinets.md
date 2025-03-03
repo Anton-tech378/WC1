@@ -1,5 +1,5 @@
-## Завдання 1
-1. Install a Type II Hypervisor (VirtualBox)
+# Завдання 1
+Install a Type II Hypervisor (VirtualBox)
 Download VirtualBox:
 
 Go to the VirtualBox website.
@@ -84,11 +84,11 @@ Insert the USB device, and it will be available in the VM.
 
 ### Основні відмінності
 
-# GNOME vs KDE Plasma
+## GNOME vs KDE Plasma
 
 A comparison between two popular Linux desktop environments: **GNOME** and **KDE Plasma**.
 
-## Comparison Table
+### Comparison Table
 
 | Feature           | GNOME                         | KDE Plasma                  |
 |------------------|-----------------------------|-----------------------------|
@@ -103,31 +103,30 @@ A comparison between two popular Linux desktop environments: **GNOME** and **KDE
 | **Compatibility** | Works well with GTK applications | Best suited for Qt applications |
 | **Settings & Controls** | Simple, streamlined settings | Advanced settings with granular controls |
 
-## Pros and Cons
+### Pros and Cons
 
-### GNOME
-#### Pros:
+#### GNOME
+##### Pros:
 - Modern and clean user interface
 - Intuitive design for new users
 - Strong touchscreen support
 - Simple and distraction-free environment
 
-#### Cons:
+##### Cons:
 - Limited customization options without extensions
 - Can be resource-intensive
 - Requires additional tweaks for power users
 
-### KDE Plasma
-#### Pros:
+#### KDE Plasma
+##### Pros:
 - Highly customizable interface
 - Lightweight and fast
 - Feature-rich applications
 - Lower system resource usage
 
-#### Cons:
+##### Cons:
 - May feel overwhelming for new users
 - Some inconsistencies in UI design
 - Touchscreen support not as polished as GNOME
 
----
-Which one is best for you? It depends on your preference! If you want a simple, modern experience, **GNOME** is a great choice. If you prefer customization and control, **KDE Plasma** is the way to go.
+
